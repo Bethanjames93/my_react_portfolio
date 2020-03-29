@@ -8,7 +8,7 @@ function About() {
                 <div className="col-12">About Me</div>
             </div>
             <div className="row">
-                <div class="col-5" src="../public/assets/imageofme.jpg" title="Image of me"></div>
+                <div class="col-5" src="assets/imageofme.jpg" title="Image of me"></div>
                 <div class="col-7">
                     <h2>Welcome to my Portfolio</h2>
                     <p>My name is Bethan James, I am currently studying at Manchester University taking part in an intense 24 week bootcamp.</p>
