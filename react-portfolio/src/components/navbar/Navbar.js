@@ -5,9 +5,6 @@ import "./style.css";
 function Navbar() {
     return (
         <nav className="navbar navbar-expand-lg navstyle">
-            <Link className="navbar-brand" to="/"> 
-            Bethan James
-            </Link>
             <div>
                 <ul className="navbar-nav">
                     <li className="nav-item">

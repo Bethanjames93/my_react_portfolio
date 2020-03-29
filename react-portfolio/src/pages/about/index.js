@@ -5,9 +5,6 @@ function About() {
     return(
         <div className="container">
             <div className="row">
-                <div className="col-12">About Me</div>
-            </div>
-            <div className="row">
                 <div class="col-5" src="assets/imageofme.jpg" title="Image of me"></div>
                 <div class="col-7">
                     <h2>Welcome to my Portfolio</h2>
