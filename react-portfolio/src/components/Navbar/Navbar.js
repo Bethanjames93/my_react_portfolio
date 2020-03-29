@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 import "./Navbar.css";
 
 function Navbar() {
-    return () {
+    return (
         <nav className="navbar navbar-expand-lg navebar-light bg-light">
             <Link className="navbar-brand" to="/"> 
             Bethan James
@@ -24,8 +24,17 @@ function Navbar() {
                             Projects
                         </Link>
                     </li>
+                    <li className="nav-item">
+                        <Link to="/contact"
+                        className={window.location.pathname === "/" || window.location.pathname === "contact" ? "nave-link active" : "nav-link"}
+                        >
+                            Contact
+                        </Link>
+                    </li>
                 </ul>
             </div>
         </nav>
-    }
+    );
 }
+
+export default Navbar;
