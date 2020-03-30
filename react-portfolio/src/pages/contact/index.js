@@ -16,7 +16,7 @@ function Contact() {
             <div className="row">
                 <div class="col-12">
                     <h3>My CV</h3>
-                    <p>Heres a PDF link to my <a href="assets/resume.pdf">CV</a></p>
+                    <p>Heres a PDF link to my <a href="Assets/resume.pdf">CV</a></p>
                 </div>
             </div>
   
