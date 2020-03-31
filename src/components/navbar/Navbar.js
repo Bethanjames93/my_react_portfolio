@@ -8,7 +8,7 @@ function Navbar() {
             <div>
                 <ul className="navbar-nav">
                     <li className="nav-item">
-                        <Link to ="/"
+                        <Link to ="/about"
                         className={window.location.pathname === "/" || window.location.pathname === "/about" ? "nav-link active" : "nav-link"}
                         >
                             About 
