@@ -35,7 +35,35 @@ function Projects() {
                     </div>
                 </div>
             </div>
-            
+            <div className="row">
+                <div className="col-4">
+                        <div className="card">
+                            <div class="card-body">
+                                <h4>Budget Tracker</h4>
+                                <p><a href="https://github.com/Bethanjames93/budget_tracker">GitHub Repo</a></p>
+                            </div>
+                        </div>
+                </div>
+
+                <div className="col-4">
+                    <div className="card">
+                        <div class="card-body">
+                            <h4>Weather Dashboard</h4>
+                            <p><a href="https://github.com/Bethanjames93/weatherdashboard">GitHub Repo</a></p>
+                        </div>
+                    </div>
+                </div>
+
+                <div className="col-4">
+                    <div className="card">
+                        <div class="card-body">
+                            <h4>Workout Tracker</h4>
+                            <p><a href="https://github.com/Bethanjames93/workout_tracker">GitHub Repo</a></p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
             </div>
         </div>
     );
